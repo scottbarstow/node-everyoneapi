@@ -1,0 +1,26 @@
+{
+  "name": "everyoneapi",
+  "version": "0.0.1",
+  "description": "Everyoneapi API wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
+  },
+  "keywords": [
+    "everyoneapi"
+  ],
+  "author": "avbel",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "nock": "^1.7.1",
+    "should": "^6.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottbarstow/node-everyoneapi"
+  }
+}
