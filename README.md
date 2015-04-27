@@ -15,7 +15,7 @@ npm install everyoneapi
 
 * Install `everyoneapi`,
 * **Get account sid and auth token** - to use the Everyone API you need these data.  
-* **Set account sid and auth  token** - see code bellow:
+* **Set account sid and auth  token** - see code below:
 
 ```js
 var everyoneapi = require("everyoneapi");
